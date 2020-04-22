@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Tournaments"
+            android:label="@string/title_activity_tournaments"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".ExploreMatchActivity"
             android:label="@string/title_activity_explore_match"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Profile_Statistics" />
         <activity android:name=".Profile" />
         <activity android:name=".SignInActivity" />

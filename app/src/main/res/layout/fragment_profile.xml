@@ -90,8 +90,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                android:gravity="center"
+                android:layout_weight="0.3"
                 android:orientation="vertical">
 
                 <View
@@ -114,8 +113,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="2"
-                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -127,13 +125,13 @@
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1">
+                        android:layout_weight="1.1">
 
                         <Button
                             android:id="@+id/explore_matches"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:elevation="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="105dp"
+                            android:layout_marginLeft="10dp"
                             android:background="@drawable/button_bg"
                             android:text="explore matches"
                             android:textColor="#ffffff" />
@@ -142,15 +140,14 @@
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
                         android:layout_weight="2">
 
                         <Button
                             android:id="@+id/profile_statistics"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:elevation="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="105dp"
                             android:background="@drawable/button_bg"
+                            android:elevation="10dp"
                             android:text="Profile Statistics"
                             android:textColor="#ffffff" />
                     </LinearLayout>
@@ -160,6 +157,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
@@ -167,14 +165,15 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:layout_marginRight="10dp"
                         android:gravity="right">
 
                         <Button
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:elevation="10dp"
+                            android:id="@+id/tournaments"
+                            android:layout_width="110dp"
+                            android:layout_height="105dp"
+                            android:layout_marginRight="10dp"
                             android:background="@drawable/button_bg"
+                            android:elevation="10dp"
                             android:text="torunaments"
                             android:textColor="#ffffff" />
                     </LinearLayout>
@@ -182,14 +181,15 @@
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
+                        android:layout_weight="1.1"
                         android:gravity="right">
 
                         <Button
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:elevation="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="105dp"
+                            android:layout_marginRight="10dp"
                             android:background="@drawable/button_bg"
+                            android:elevation="10dp"
                             android:text="tournament Statistics"
                             android:textColor="#ffffff" />
                     </LinearLayout>
@@ -198,6 +198,12 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
 
         </LinearLayout>
 

@@ -63,11 +63,13 @@ public class FragmentProfile extends Fragment {
 
         Button profile_statistics;
         Button explore_matches;
+        Button tournaments;
 
         View view=inflater.inflate(R.layout.fragment_profile, container, false);
 
         profile_statistics=view.findViewById(R.id.profile_statistics);
         explore_matches=view.findViewById(R.id.explore_matches);
+        tournaments=view.findViewById(R.id.tournaments);
 
         profile_statistics.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,6 +82,14 @@ public class FragmentProfile extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent i=new Intent(getActivity(),ExploreMatchActivity.class);
+                i.putExtra("explore",1);
+                startActivity(i);
+            }
+        });
+        tournaments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getActivity(),Tournaments.class);
                 startActivity(i);
             }
         });
