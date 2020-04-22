@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Tournaments"
+            android:name=".TournamentsActivity"
             android:label="@string/title_activity_tournaments"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity

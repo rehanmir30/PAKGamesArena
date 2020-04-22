@@ -89,7 +89,7 @@ public class FragmentProfile extends Fragment {
         tournaments.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getActivity(),Tournaments.class);
+                Intent i=new Intent(getActivity(),TournamentsActivity.class);
                 startActivity(i);
             }
         });
