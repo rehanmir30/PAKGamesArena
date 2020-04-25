@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Details"></activity>
+        <activity android:name=".Fortnite_Statistics" />
+        <activity android:name=".COD_Statistics" />
+        <activity android:name=".Pubg_Statistics" />
         <activity
             android:name=".TournamentsActivity"
             android:label="@string/title_activity_tournaments"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ExploreMatchActivity"
             android:label="@string/title_activity_explore_match"

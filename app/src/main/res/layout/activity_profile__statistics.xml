@@ -8,7 +8,6 @@
     tools:context=".Profile_Statistics">
 
     <LinearLayout
-        android:id="@+id/toptab"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="#8002FD"
@@ -56,6 +55,7 @@
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/pubg_statistics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_bg"
@@ -63,6 +63,7 @@
                 android:textColor="#FFFFFF" />
 
             <Button
+                android:id="@+id/cod_statistics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -71,6 +72,7 @@
                 android:textColor="#FFFFFF" />
 
             <Button
+                android:id="@+id/fortnite_statistics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"

@@ -1,5 +1,6 @@
 package co.yactech.pakgamesarena;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 
 /**
@@ -59,6 +61,18 @@ public class AllMatches extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_all_matches, container, false);
+        View view =inflater.inflate(R.layout.fragment_all_matches, container, false);
+
+        LinearLayout open=view.findViewById(R.id.open);
+
+        open.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i =new Intent(getContext(),Details.class);
+                startActivity(i);
+            }
+        });
+
+        return view;
     }
 }
