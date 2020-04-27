@@ -6,6 +6,7 @@
     tools:context=".AllTournaments">
 
     <LinearLayout
+        android:id="@+id/open"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
@@ -18,7 +19,12 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/userpic"/>
 
         </LinearLayout>
         <LinearLayout
@@ -71,8 +77,11 @@
                         android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="Mobile"
+                            android:gravity="center_vertical"
+                            android:drawablePadding="8dp"
+                            android:drawableLeft="@drawable/mobile"
                             android:textSize="9dp"/>
 
                     </LinearLayout>
@@ -83,8 +92,11 @@
                         android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Duo:"
+                            android:layout_height="match_parent"
+                            android:text="Duo"
+                            android:drawableLeft="@drawable/duo"
+                            android:drawablePadding="8dp"
+                            android:gravity="center_vertical"
                             android:textSize="9dp"/>
 
                     </LinearLayout>
@@ -95,8 +107,11 @@
                         android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="Lahore"
+                            android:drawableLeft="@drawable/location"
+                            android:gravity="center_vertical"
+                            android:drawablePadding="8dp"
                             android:textSize="9dp"/>
 
                     </LinearLayout>
@@ -107,8 +122,11 @@
                         android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="TPP"
+                            android:drawableLeft="@drawable/tpp"
+                            android:gravity="center_vertical"
+                            android:drawablePadding="8dp"
                             android:textSize="9dp"/>
 
                     </LinearLayout>
@@ -123,12 +141,15 @@
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
+                        android:layout_weight="1.3"
                         android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="April 25, 2020"
+                            android:drawableLeft="@drawable/date"
+                            android:drawablePadding="8dp"
+                            android:gravity="center_vertical"
                             android:textSize="9dp"/>
 
                     </LinearLayout>
@@ -139,8 +160,11 @@
                         android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="11:30 AM"
+                            android:drawableLeft="@drawable/time"
+                            android:gravity="center_vertical"
+                            android:drawablePadding="8dp"
                             android:textSize="9dp"/>
 
                     </LinearLayout>

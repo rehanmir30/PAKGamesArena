@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Details"></activity>
+        <activity android:name=".AddBalance" android:label="Add Balance" android:theme="@style/apptheme"></activity>
+        <activity android:name=".Finish_Transection" />
+        <activity android:name=".Withdraw_Money" />
+        <activity android:name=".Details" />
         <activity android:name=".Fortnite_Statistics" />
         <activity android:name=".COD_Statistics" />
         <activity android:name=".Pubg_Statistics" />

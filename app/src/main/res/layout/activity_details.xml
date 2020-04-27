@@ -38,9 +38,139 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:alpha=".6"
-        android:background="@drawable/cod"
+        android:background="@drawable/detail_bg"
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Freefire Arena Warriors 31"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Free for All"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="8dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Mobile"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="8dp"
+                    android:drawableLeft="@drawable/mobile1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Duo"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:drawableLeft="@drawable/duo1"
+                    android:textSize="9dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Lahore"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:drawableLeft="@drawable/location1"
+                    android:textSize="9dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="TPP"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:drawableLeft="@drawable/tpp1"
+                    android:textSize="9dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Match Starts in 23 hours"
+                android:textColor="#FE9923"
+                android:gravity="bottom"
+                android:textSize="10dp"
+                android:paddingBottom="10dp"/>
+
+        </LinearLayout>
 
 
     </LinearLayout>
@@ -77,6 +207,7 @@
                         android:layout_height="wrap_content"
                         android:drawableLeft="@drawable/coin"
                         android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
                         android:text="0 UC"
                         android:textSize="8dp">
 
@@ -96,6 +227,7 @@
                         android:drawableLeft="@drawable/coin"
                         android:drawablePadding="10dp"
                         android:text="0 UC"
+                        android:gravity="center_vertical"
                         android:textSize="8dp">
 
                     </TextView>
@@ -114,6 +246,7 @@
                         android:drawableLeft="@drawable/coin"
                         android:drawablePadding="10dp"
                         android:text="0 UC"
+                        android:gravity="center_vertical"
                         android:textSize="8dp">
 
                     </TextView>
@@ -132,6 +265,7 @@
                         android:drawableLeft="@drawable/coin"
                         android:drawablePadding="10dp"
                         android:text="0 UC"
+                        android:gravity="center_vertical"
                         android:textSize="8dp">
 
                     </TextView>
